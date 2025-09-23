@@ -8,7 +8,7 @@ public class Main {
         int[] nValues = {10, 50, 100, 200, 400, 800, 1600};
 
         // Printing the time in ms against the n values
-        System.out.println("n,time_ms");
+        System.out.println("n, time_ms, theoretical_time_ms");
 
         for (int n : nValues) {
             long startTime = System.nanoTime();
@@ -16,7 +16,8 @@ public class Main {
             long endTime = System.nanoTime();
 
             long durationMs = (endTime - startTime) / 1000000;
-            System.out.println(n + "," + durationMs);
+            long theoreticalDurationMs = (long) Math.pow(n, 3) / 1000000;
+            System.out.println(n + "," + durationMs + "," + theoreticalDurationMs);
         }
     }
 
