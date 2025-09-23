@@ -16,7 +16,7 @@ public class Main {
             long endTime = System.nanoTime();
 
             long durationMs = (endTime - startTime) / 1000000;
-            long theoreticalDurationMs = (long) Math.pow(n, 3) / 1000000;
+            long theoreticalDurationMs = (long) Math.pow(n, 3);
             System.out.println(n + "," + durationMs + "," + theoreticalDurationMs);
         }
     }
