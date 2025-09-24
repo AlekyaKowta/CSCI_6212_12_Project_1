@@ -12,6 +12,8 @@ The Java main class is in the `src` package inside the `src` folder.
 3. Run the compiled Java program:
    `java src.Main`
 
+Note: It should take a bit to compute the last 3 values.
+
 ## Running the Python Script
 
 The Python script `PlotGraph.py` is located in the `src` folder.

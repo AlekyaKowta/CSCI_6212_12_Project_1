@@ -22,7 +22,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // Selecting random values of n for graph plots
-        int[] nValues = {2, 10, 50, 75, 100, 200, 225, 400, 450, 500, 600, 750, 800, 1200, 1600, 1800, 2200, 2400, 4000, 6000};
+        int[] nValues = {2, 10, 50, 75, 100, 200, 225, 400, 450, 500, 600, 750, 800, 1200, 1600, 1800, 2200, 2400, 4000, 6000, 8000};
 
         // Scaling the theoretical time so that the graph is more meaningful
         int nNormalizedValue = 2400;
