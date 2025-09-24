@@ -4,11 +4,12 @@ import java.util.Random;
 
 /**
  * This class demonstrates measuring experimental and theoretical
- * run times of a cubic complexity operation using arrays with random values.
+ * run times of a cubic complexity function using arrays with random values.
  * It scales theoretical times to compare with experimental O(n^3) times.
  *
  * @author Alekya Kowta
  * @version 1.0
+ * @reviewer Jay Parmar
  */
 public class Main {
 
@@ -54,7 +55,7 @@ public class Main {
      * Method of the given program to analyze.
      * Performs a cubic complexity sum of triplet products from
      * three randomly initialized arrays of size n+1.
-     * Contains a nested loop with early termination condition.
+     * Contains a nested loop with early termination conditionß.
      *
      * @param n size parameter for arrays and loops
      * @return the sum as a long value of products of elements in arrays a, b, and c
