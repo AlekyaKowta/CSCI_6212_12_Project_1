@@ -5,7 +5,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         // Selecting random values of n
-        int[] nValues = {2, 10, 50, 75, 100, 200, 225, 400, 450, 500, 600, 750, 800, 1600, 2400, 6000};
+        int[] nValues = {2, 10, 50, 75, 100, 200, 225, 400, 450, 500, 600, 750, 800, 1200, 1600, 1800, 2200, 2400, 4000, 6000};
 
         //Scaling the N so that the graph is more meaningful
 
@@ -17,7 +17,7 @@ public class Main {
         double scalingFactor = normalizationTimeNs / Math.pow(nNormalizedValue, 3);
 
         // Printing the time in ms against the n values
-        System.out.println("n, time_ns, theoretical_time, adjusted_theoretical_time");
+        System.out.println("n, experimental_time_ns, theoretical_time, adjusted_theoretical_time");
 
         for (int n : nValues) {
             long startTime = System.nanoTime();
